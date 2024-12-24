@@ -1,5 +1,8 @@
 #About this version
 
+ClipperScreen did not allow to control the interface via the keyboard, although the GTK library allows to control the interface by switching the focus via the keyboard. For some reason, the ability to switch the focus of buttons was blocked in the ClipperScreen sources. I fixed it and removed the prohibition on the ability to receive focus. I also added a style for widgets with focus to make them noticeable. Focus switching occurs by pressing the "TAB" and "SHIFT+TAB" keys, Pressing occurs when pressing the "ENTER" key.
+
+The Encoder-Driver-Daemon directory contains a daemon script that converts encoder signals into keystrokes.
 
 
 
