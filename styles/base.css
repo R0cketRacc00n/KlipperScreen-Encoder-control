@@ -21,6 +21,14 @@
     border: 0;
 }
 
+*:focus {
+    color: blue;
+/*    background-color: yellow;*/
+    outline-color: red;
+    outline-style: solid;
+    outline-width: 4px;
+}
+
 button:disabled {
     opacity: .5;
 }
