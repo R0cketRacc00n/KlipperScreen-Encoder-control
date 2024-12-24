@@ -1,0 +1,15 @@
+[Unit]
+Description=keyboard emulation service via encoder
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/KlipperScreen-Encoder-control/Encoder-Driver-Deamon/Encoder2Keyboard.py
+WorkingDirectory=/home/pi/KlipperScreen-Encoder-control/Encoder-Driver-Deamon/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+StartLimitBurst=500
+StartLimitIntervalSec=0
+
+[Install]
+WantedBy=multi-user.target
