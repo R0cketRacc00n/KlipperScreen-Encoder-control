@@ -21,6 +21,14 @@
     color: @solarized-base3;
 }
 
+*:focus {
+    color: blue;
+/*    background-color: yellow;*/
+    outline-color: red;
+    outline-style: solid;
+    outline-width: 4px;
+}
+
 junction,
 list row,
 treeview.view,
