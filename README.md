@@ -4,6 +4,7 @@ KlipperScreen did not allow to control the interface via the keyboard, although 
 
 The ./Encoder-Driver-Daemon directory/ contains a daemon script for systemd that converts encoder signals into keystrokes.
 
+I haven't made the installation scripts yet
 
 
 # KlipperScreen
